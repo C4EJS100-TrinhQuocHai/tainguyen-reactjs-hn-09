@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 export default class Student extends Component {
+    
   render() {
       let data= this.props.student;
     return (
@@ -9,6 +10,10 @@ export default class Student extends Component {
         <td>{data.name}</td>
         <td>{data.age}</td>
         <td>{data.id}</td>
+        <td> <button>Sửa</button></td>
+        <td> <button>Xoá</button></td>
+
+
       </>
     )
   }
